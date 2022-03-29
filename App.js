@@ -5,6 +5,7 @@ import Rotas from "./src/Rotas";
 import TelaPadrao from "./src/componentes/TelaPadrao";
 
 export default function App() {
+  console.log("olifrans")
   return;
   <TelaPadrao>
     <Rotas />;
