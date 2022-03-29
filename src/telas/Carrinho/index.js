@@ -1,7 +1,6 @@
 import React from "react";
 import { FlatList } from "react-native";
 import StatusCarrinho from "../../componentes/StatusCarrinho";
-import TelaPadrao from "../../componentes/TelaPadrao";
 import Item from "./Item";
 
 const servicos = [
@@ -47,7 +46,7 @@ export default function Carrinho() {
   );
 
   return;
-  <TelaPadrao>
+  <>
     <StatusCarrinho total={total} />
     <FlatList
       removeClippedSubviews={false}
@@ -55,5 +54,5 @@ export default function Carrinho() {
       renderItem={({ item }) => <Item {...item} />}
       keyExtractor={({ id }) => String(id)}
     />
-  </TelaPadrao>;
+  </>;
 }
