@@ -64,7 +64,7 @@ export default function Item({ nome, preco, descricao }) {
           </View>
         </View>
 
-        <Botao valor="Adcionar" acao={() => {}} />
+        <Botao valor="Adcionar ao Carrinho" acao={() => {}} />
       </View>
     )}
     <View style={estilos.divisor} />
